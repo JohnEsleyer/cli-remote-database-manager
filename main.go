@@ -27,7 +27,7 @@ func main() {
 
 	fmt.Print("db_table_name (table to display rows):")
 	fmt.Scan(&tableName)
-	fmt.Print("-----------------------------------")
+	fmt.Print("----------------------------------- \n")
 
 	// Connect to the RDS database
 	db, err := sql.Open("mysql", username+":"+password+"@tcp("+host+":"+port+")/"+name)
