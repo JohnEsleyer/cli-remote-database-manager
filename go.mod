@@ -1,4 +1,4 @@
-module github.com/johnesleyer/RDSTableDsiplay
+module github.com/johnesleyer/RDSTableDisplay
 
 go 1.18
 
