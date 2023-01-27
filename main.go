@@ -36,4 +36,12 @@ func main() {
 		return
 	}
 	defer db.Close()
+
+	// Execute the query to select all rows from the table
+	rows, err := db.Query("SELECT * FROM " + tableName)
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+	defer rows.Close()
 }
