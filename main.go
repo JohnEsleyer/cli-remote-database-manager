@@ -27,7 +27,7 @@ func main() {
 
 	fmt.Print("db_table_name (table to display rows):")
 	fmt.Scan(&tableName)
-	fmt.Print("----------------------------------- \n")
+	fmt.Println("----------------------------------- ")
 
 	// Connect to the RDS database
 	db, err := sql.Open("mysql", username+":"+password+"@tcp("+host+":"+port+")/"+name)
@@ -72,7 +72,7 @@ func main() {
 
 		var value string
 		for i, col := range values {
-			// Here we can check if the value is nil (NULL value)
+
 			if col == nil {
 				value = "NULL"
 			} else {
