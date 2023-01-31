@@ -1,4 +1,4 @@
-module github.com/johnesleyer/RDSTableDisplay
+module github.com/johnesleyer/cli-remote-database
 
 go 1.18
 
