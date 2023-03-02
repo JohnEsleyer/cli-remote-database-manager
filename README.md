@@ -15,3 +15,6 @@ go build
 
 ##### Choose one of the options given
 ![image](https://user-images.githubusercontent.com/66754038/215781216-d08a41fe-d6d5-478a-824a-3ead9c9b0c39.png)
+
+#### Why did I build this project?
+I build this project to allow my team project members to interact with my AWS RDS database instance without interacting with the AWS website, which prevent them from making mistakes in the platform.
